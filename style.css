@@ -209,3 +209,50 @@ img[src^="./img/services-"] {
     text-align: center;
     color: #458FF6;
 }
+
+.our-services-buttom:hover {
+    background-color: #67C3F3;
+    color: #FFFFFF;
+}
+
+.leading-healthcare-providers {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    width: 1273px;
+    height: 477px;
+}
+
+.leading-healthcare-img {
+    width: 650px;
+}
+
+.leading-healthcare {
+    display: flex;
+    padding: 140px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    font-family: 'Mulish';
+    color: #000000;
+    mix-blend-mode: normal;
+}
+
+.donwload-our {
+    display: flex;
+    padding: 140px;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    font-family: 'Mulish';
+    color: #000000;
+    mix-blend-mode: normal;
+}
+
+.donwload-our-texts {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    width: 1273px;
+    height: 477px;
+}
