@@ -48,9 +48,10 @@ nav a {
     opacity: 0.5;
 }
 
-a:hover {
+nav a:hover {
     color: #1F1534;
     opacity: 1;
+    cursor: pointer;
 }
 
 .principal-content {
@@ -184,7 +185,7 @@ img+h4 {
     color: #000000;
 }
 
-div p {
+h4+p {
     color: #7D7987;
     font-weight: 300;
     font-size: 16px;
@@ -213,6 +214,7 @@ img[src^="./img/services-"] {
 .our-services-buttom:hover {
     background-color: #67C3F3;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .leading-healthcare-providers {
@@ -252,7 +254,80 @@ img[src^="./img/services-"] {
 .donwload-our-texts {
     display: flex;
     flex-direction: column;
+    gap: 32px;
     justify-items: flex-start;
     width: 1273px;
     height: 477px;
+}
+
+.costumer {
+    width: 1120px;
+    height: 425px;
+    position: center;
+    padding: 50px;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+}
+
+.costumer-content {
+    background-image: url("./img/element.png");
+    background-repeat: no-repeat;
+    background-size: 5 1px;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+#costumer-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    /* identical to box height, or 133% */
+    color: #FFFFFF;
+}
+
+.costumer-texts-position {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.costumer-texts-position p {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    /* or 158% */
+    color: rgba(255, 255, 255, 0.9);
+    padding: 60px;
+}
+
+#costumer-text1 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 48px;
+    /* identical to box height, or 218% */
+    color: #FFFFFF;
+}
+
+#costumer-text2 {
+    height: 120px;
+    width: 420px;
+    left: 824px;
+    top: 3940px;
+    border-radius: nullpx;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 48px;
+    /* identical to box height, or 267% */
+    color: rgba(255, 255, 255, 0.85);
+}
+
+img[src$="image 1.png"] {
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-radius: 80px;
 }
