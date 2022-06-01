@@ -3,7 +3,7 @@
 /* Reset das propriedades */
 
 * {
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
@@ -111,7 +111,7 @@ h3 {
 
 .line-end {
     display: flex;
-    border-top: 2px solid #000000;
+    border-top: solid #000000;
     opacity: 0.5;
     width: 56px;
 }
@@ -260,75 +260,74 @@ img[src^="./img/services-"] {
     height: 477px;
 }
 
-.costumer {
+.customer {
     width: 1120px;
     height: 425px;
-    position: center;
-    padding: 60px;
+    margin-left: auto;
+    margin-right: auto;
     background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
     border-radius: 24px;
 }
 
-.costumer-content {
-    background-image: url("./img/element.png");
+.customer-content {
+    background-image: url("./img/pontinhos.png");
     background-repeat: no-repeat;
-    background-size: 5 1px;
-    background-position: right;
+    background-size: 100px;
+    background-position: top right;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 0px;
 }
 
-#costumer-title {
+#customer-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 48px;
-    /* identical to box height, or 133% */
+    margin-top: 70px;
     color: #FFFFFF;
 }
 
-.costumer-texts-position {
+.customer-texts-position {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    padding: 10px;
-    justify-content: space-between;
-    gap: 100px;
+    margin-top: 55px;
+    gap: 90px;
 }
 
-.costumer-texts-position p {
-    margin-top: 20px;
+.customer-texts-position>p {
     font-weight: 400;
     font-size: 19px;
     line-height: 30px;
-    /* or 158% */
+    width: 400px;
     color: rgba(255, 255, 255, 0.9);
 }
 
-.costumer-texts2 {
+.customer-texts2 {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 20px;
 }
 
-#costumer-text1 {
+#customer-text1 {
     font-weight: 700;
     font-size: 22px;
     line-height: 48px;
+    margin-bottom: 0%;
     /* identical to box height, or 218% */
     color: #FFFFFF;
 }
 
-#costumer-text2 {
+#customer-text2 {
     font-weight: 400;
     font-size: 18px;
     line-height: 48px;
+    margin-top: 0%;
     /* identical to box height, or 267% */
     color: rgba(255, 255, 255, 0.85);
 }
 
-.costumer-texts3 {
+.customer-texts3 {
     display: flex;
     flex-direction: column;
     gap: 0px;
@@ -338,8 +337,23 @@ img[src$="image 1.png"] {
     border-style: solid;
     border-color: #FFFFFF;
     border-radius: 80px;
-    width: 141px;
-    height: 141px;
+    width: 133px;
+    height: 133px;
     left: 360px;
     top: 3929px;
+}
+
+#customer-flecha-img {
+    position: absolute;
+    width: 336.43px;
+    height: 20px;
+    left: 450px;
+    top: 4000px
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 250px;
 }
