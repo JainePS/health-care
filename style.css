@@ -357,3 +357,79 @@ img[src$="image 1.png"] {
     align-items: center;
     margin-top: 250px;
 }
+
+.articles-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 35px;
+    margin-top: 80px;
+}
+
+.articles-grid-box {
+    width: 350px;
+    height: 512px;
+    left: 240px;
+    top: 4596px;
+    background: #FFFFFF;
+    /* drop shadow */
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+}
+
+img[src^="img/article-"] {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.articles-grid-texts {
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+p:nth-child(1) {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    /* or 152% */
+    color: #000000;
+}
+
+p:nth-child(2) {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    color: #7D7987;
+    margin-top: 0px;
+}
+
+p:nth-child(3) {
+    font-weight: 550;
+    font-size: 17px;
+    line-height: 28px;
+    /* identical to box height, or 165% */
+    color: #4089ED;
+}
+
+.articles-buttom {
+    background-color: #ffffff;
+    margin-top: 50px;
+    box-sizing: border-box;
+    width: 200px;
+    border: 1.5px solid #458FF6;
+    border-radius: 55px;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    color: #458FF6;
+}
+
+.articles-buttom:hover {
+    background-color: #67C3F3;
+    color: #FFFFFF;
+    cursor: pointer;
+}
