@@ -392,7 +392,7 @@ img[src^="img/article-"] {
     padding-right: 50px;
 }
 
-p:nth-child(1) {
+.articles-grid-texts p:nth-child(1) {
     font-weight: 700;
     font-size: 21px;
     line-height: 32px;
@@ -400,7 +400,7 @@ p:nth-child(1) {
     color: #000000;
 }
 
-p:nth-child(2) {
+.articles-grid-texts p:nth-child(2) {
     font-weight: 300;
     font-size: 16px;
     line-height: 28px;
@@ -409,7 +409,7 @@ p:nth-child(2) {
     margin-top: 0px;
 }
 
-p:nth-child(3) {
+.articles-grid-texts p:nth-child(3) {
     font-weight: 550;
     font-size: 17px;
     line-height: 28px;
@@ -436,4 +436,48 @@ p:nth-child(3) {
     background-color: #67C3F3;
     color: #FFFFFF;
     cursor: pointer;
+}
+
+.footer-box {
+    width: 1300px;
+    height: 432px;
+    left: 0px;
+    margin-top: 300px;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+
+#footer-texts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Mulish', sans-serif;
+    color: #FFFFFF;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 100px;
+    align-items: baseline;
+}
+
+.footer-text1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+.trafalgar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-text1-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.footer-text1-content {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
 }
